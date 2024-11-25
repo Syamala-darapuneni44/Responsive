@@ -2,7 +2,7 @@
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
-    background-color: #f9f3e9; /* Light beige background */
+    background-color: #f9f3e9; 
 }
 
 header {
@@ -16,14 +16,14 @@ header {
 #navbar {
     display: flex;
     align-items: center;
-    justify-content: space-between; /* Space between name and menu */
-    background-color: #6c4f4f; /* Dark brown background */
+    justify-content: space-between; 
+    background-color: #6c4f4f; 
     padding: 10px 20px;
 }
 
 .bakery-name {
-    color: #fff; /* White text color for bakery name */
-    font-size: 24px; /* Larger font size for visibility */
+    color: #fff; 
+    font-size: 24px; 
 }
 
 #navbar ul {
@@ -33,27 +33,27 @@ header {
 }
 
 #navbar li {
-    display: inline; /* Inline items for horizontal menu */
+    display: inline; 
 }
 
 #navbar a {
-    color: #f2f2f2; /* Light gray text color */
+    color: #f2f2f2; 
     text-decoration: none;
     padding: 14px 20px;
 }
 
 #navbar a:hover {
-    background-color: #d9b89c; /* Light brown on hover */
+    background-color: #d9b89c; 
 }
 
 /* Change navbar color on scroll */
 .scrolled {
-    background-color: #5b3e3e; /* Darker brown when scrolled */
+    background-color: #5b3e3e; 
 }
 
 /* Content styling */
 .content {
-    padding-top: 70px; /* Space for fixed navbar */
+    padding-top: 70px; 
 }
 
 section {
@@ -61,53 +61,52 @@ section {
 }
 
 h1, h2 {
-    color: #6c4f4f; /* Dark brown for headings */
+    color: #6c4f4f; 
 }
 
 p {
-    color: #666; /* Gray text for paragraphs */
+    color: #666; 
 }
 
 .main-image {
-    width: 60%; /* Adjusted width for better alignment */
-    height: auto; /* Maintain aspect ratio */
+    width: 60%; 
+    height: auto; 
 }
 
-/* About section image gallery styling */
+
 .image-gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr)); /* Responsive grid layout */
-    gap: 15px; /* Space between images */
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr)); 
+    gap: 15px; 
 }
 
 .image-gallery img {
-    width: 60%; /* Make images responsive and same size */
-    height: auto; /* Maintain aspect ratio */
+    width: 60%; 
+    height: auto; 
 }
 
-/* Menu items styling */
 .menu-items {
     display: flex;
-    flex-wrap: wrap; /* Wrap items to next line if needed */
+    flex-wrap: wrap; 
 }
 
 .menu-item {
-   flex-basis: calc(33.33% - 20px); /* Three items per row with spacing */
-   margin-right: 10px; /* Space between items */
-   text-align: center; /* Center align text under images */
+   flex-basis: calc(33.33% - 20px); 
+   margin-right: 10px; 
+   text-align: center;
 }
 
 .menu-item img {
-   width: 60%; /* Make images responsive within menu items and same size */
-   height: 50; /* Maintain aspect ratio */
+   width: 60%; 
+   height: 50;
 }
 
-/* Remove margin from last item in each row */
+
 .menu-item:nth-child(3n) {
    margin-right: 0; 
 }
 
-/* Menu list styling (if needed) */
+
 .menu-list {
-   list-style-type: none; /* Remove bullets from menu list */
+   list-style-type: none; 
 }
